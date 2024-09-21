@@ -1,0 +1,202 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* styles with direct tag */
+body {
+    max-width: 1440px;
+}
+
+header {
+    color: rgba(58, 58, 58, 1);
+    /* padding: 87px 132px 100px 120px; */
+}
+
+/* primary color */
+.dark-one {
+    color: rgba(58, 58, 58, 1);
+}
+
+/* secondary color */
+
+/* another color */
+
+
+/* shared styles */
+
+
+/* nav styles */
+.nav-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 87px 120px 50px 120px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+nav ul li {
+    font-weight: 600;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+}
+
+/* header main part styles */
+.header-title {
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.header-description {
+    font-weight: 600;
+}
+
+.header-btn {
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 41px;
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 56px 10px 24px;
+}
+
+.main-part-details {
+    max-width: 582px;
+padding: 100px 0 170px 120px;
+}
+.main-part-img {
+    max-width: 440px;
+    max-height: 414px;
+    width: 100%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+
+.header-main-part {
+    display: flex;
+    gap: 133px;
+}
+/* header logos styles */
+.header-logos-div{
+    max-width: 1110px;
+    max-height: 110px;
+    margin: 0 auto;
+}
+.header-logo{
+    padding: 30px;
+}
+/* collections styles */
+.collection-section{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.card-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+}
+.popular-collection{
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+}
+.cards{
+    max-width: 330px;
+    max-height: 475px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 5px;
+   padding: 16px 15px;
+}
+.card-names{
+    color:rgba(24, 25, 31, 1);
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 16px 0 6px 0;
+}
+.card-price{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+}
+.cards p{
+    font-size: 0.87rem;
+    font-weight: bold;
+    color: rgba(120, 120, 133, 1);
+}
+.collection-btn{
+    font-weight: bold;
+    color: rgba(224, 44, 109, 0.87);
+    margin-top: 50px;
+    border: none;
+    background-color: white;
+}
+.collection-btn-container{
+    text-align: end;
+}
+/* feature-product styles */
+.feature-product{
+    margin: 100px 165px;
+    display: flex;
+    gap: 96px;
+}
+.feature-product-title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color:rgba(10, 8, 38, 1) ;
+    text-wrap: nowrap;
+}
+.feature-product-pera{
+    font-weight: bold;
+    color: rgba(108, 108, 108, 1);
+    max-width: 500px;
+}
+.feature-product-btn{
+    border: none;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(224, 44, 109, 1) ;
+    padding: 10px 56px 10px 24px;
+}
+/* footer */
+footer{
+    background-color: black;
+    text-align: center;
+}
+footer h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 50px;
+    margin: 0;
+}
+footer p{
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: rgba(217, 219, 225, 1);
+    padding: 3px;
+    margin: 0;
+}
+footer img{
+    padding-top: 17px;
+    padding-bottom: 50px;
+}
+/* responsive for mobile device*/
+
+
+/* responsive for medium device */
