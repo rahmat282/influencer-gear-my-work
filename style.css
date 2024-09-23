@@ -1,3 +1,22 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+.manrope-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -71,9 +90,12 @@ ul li a {
     border: none;
     border-radius: 41px;
     background-color: rgba(224, 44, 109, 1);
-    padding: 10px 56px 10px 24px;
+    padding: 10px 24px;
 }
-
+.header-btn i{
+    margin-left: 8px;
+    font-size: 17px;
+}
 .main-part-details {
     max-width: 582px;
 padding: 100px 0 170px 120px;
@@ -171,11 +193,15 @@ padding: 100px 0 170px 120px;
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
     background-color:rgba(224, 44, 109, 1) ;
-    padding: 10px 56px 10px 24px;
+    padding: 10px 24px;
 }
+.feature-product-btn i {
+    margin-left: 8px;
+    font-size: 17px;
+  }
 /* footer */
 footer{
-    background-color: black;
+    background-color:rgba(10, 8, 38, 1);
     text-align: center;
 }
 footer h3{
@@ -192,7 +218,13 @@ footer p{
     padding: 3px;
     margin: 0;
 }
+.footer-img-div{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
 footer img{
+    width: 32px;
     padding-top: 17px;
     padding-bottom: 50px;
 }
